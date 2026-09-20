@@ -1,0 +1,1 @@
+import{expect,it}from'vitest';import{FlowWindow}from'../src/index.js';it('tracks credit',()=>{const x=new FlowWindow(10);x.consume(4);expect(x.value).toBe(6)});
